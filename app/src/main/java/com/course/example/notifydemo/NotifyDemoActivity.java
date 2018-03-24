@@ -56,7 +56,7 @@ public class NotifyDemoActivity extends Activity {
 						.setContentText(contentText)
 						.setSmallIcon(R.drawable.droid)
 
-						.setTicker(tickerText)            //set status bar text
+						.setTicker(tickerText)            //sent to accessibility services
 
 						.setWhen(System.currentTimeMillis())    //timestamp when event occurs
 
